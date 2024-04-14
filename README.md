@@ -1,0 +1,2 @@
+# CompanyOfHeroes2Installer
+CompanyOfHeroes2Installer by RiritoNinigaya
