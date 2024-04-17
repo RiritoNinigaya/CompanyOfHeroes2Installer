@@ -34,6 +34,9 @@ PrivilegesRequired=lowest
 OutputDir=Output
 ; Directive "WizardSmallImageBackColor" was modified for purposes of Graphical Installer.
 WizardSmallImageBackColor={#GraphicalInstallerUI}
+DiskSpanning=yes
+DiskClusterSize=5000
+ReserveBytes=6000
 [Files]
 Source: "C:\Include_InnoSetup\bass.dll"; DestDir: "{tmp}"; Flags: ignoreversion dontcopy
 Source: "E:\Games\Company of Heroes 2\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
